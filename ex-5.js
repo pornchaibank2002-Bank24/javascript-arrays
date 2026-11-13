@@ -21,4 +21,6 @@ const employees = [
   },
 ];
 
-// Start coding here
+const updateEmployees = employees;
+updateEmployees.pop(3);
+console.log(employees);
